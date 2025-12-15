@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishan Portfolio</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="scroll-progress"></div>
+    <video autoplay muted loop class="video-bg">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <h1>Nishan Gurung</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#short_bio">Bio</a></li>
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#education_history">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#interests_hobbies">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">☰</button>
+        </nav>
+    </header>
+    <section id="short_bio" class="section">
+        <h2>Short Bio</h2>
+        <img src="Me.png" alt="Nishan Gurung" class="img">
+        <p>Hello! I am <b>Nishan Gurung</b>, welcome to my portfolio.</p>
+        <p>Here you will find details about my studies, and hobbies.</p>
+    </section>
+    <section id="aboutMe" class="section">
+        <h2>About Me</h2>
+        <p>I am from Samakhusi, Kathmandu. I am pursuing BSc (Hons) Computer Science at Herald College Kathmandu. I enjoy singing, playing guitar, exploring outdoors, and relaxing in my free time.</p>
+    </section>
+
+    <!-- Education -->
+    <section id="education_history" class="section">
+        <h2>Education</h2>
+        <ul class="education-list">
+            <li>BSc (Hons) Computer Science - Herald College, University of Wolverhampton</li>
+            <li>+2 - Kathmandu Model College, NEB (A)</li>
+            <li>SEE - Vidhya Bikash School, NEB (A)</li>
+        </ul>
+    </section>
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar"><div class="fill" style="width: 65%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+    <section id="interests_hobbies" class="section">
+        <h2>Interests & Hobbies</h2>
+        <div class="container">
+            <div class="int">
+                <i class="fa-solid fa-music"></i>
+                <b>Music</b>
+                <p>Listening to English songs from the 80s and 90s.</p>
+            </div>
+            <div class="int">
+                <i class="fa-solid fa-compass"></i>
+                <b>Traveling</b>
+                <p>Exploring new places and cultures.</p>
+            </div>
+            <div class="int">
+                <i class="fa-solid fa-guitar"></i>
+                <b>Singing / Guitar</b>
+                <p>Sing and play rhythm guitar.</p>
+            </div>
+            <div class="int">
+                <i class="fa-solid fa-futbol"></i>
+                <b>Football</b>
+                <p>Playing midfield or forward positions.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Nishan Gurung</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
